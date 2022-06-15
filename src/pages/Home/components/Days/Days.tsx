@@ -79,7 +79,7 @@ const Days = (props: Props) => {
           <Tabs/>
         <div className={s.days}>
             {days.map((day: Day) => {
-                return <Card key={day.icon_id} day={day}/>
+                return <Card key={day.day_name} day={day}/>
             })}
         </div>
     </React.Fragment>
